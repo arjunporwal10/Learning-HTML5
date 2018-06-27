@@ -1,23 +1,15 @@
-.wrap{
-    min-width: 600px;
-    width: 80%;
-    margin: auto;
-    background-color: chartreuse;
+body{
+    font-family: sans-serif;
 }
-.content{
-    float: left;
-    width: 70%;
-    background: aqua;
+li{
+    display:inline;
+    padding-right: 10px;
 }
-aside{
-    background-color: yellow;
-    float: left;
-    width: 30%;
+ul a{
+    text-decoration: none;
+    color: black;
 }
-aside, .content{
-    height: 600px;
-}
-aside ul{
-    list-style: none;
-    padding-left: 0px;
+ul a:hover{
+    text-decoration: underline;
+    color: blue;
 }
