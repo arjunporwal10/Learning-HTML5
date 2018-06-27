@@ -1,10 +1,7 @@
-a{
-    color:red;text-decoration: none;
-}
-div {
-    font-style: italic;
-    background-color: yellow;
-    margin-left: 50px;
-    
+#emphasis{
+    background-color: brown;
 }
 
+.emphasis{
+    background-color: aqua;
+}
