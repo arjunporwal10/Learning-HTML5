@@ -1,15 +1,15 @@
-form li{
-    list-style: none;
-    margin-bottom: 20px;
+body{
+    background: grey;
 }
-label{
-    display: block;
-    cursor: pointer;
-}
-form ul{
-    padding-left: 0;
-}
-textarea{
-    width: 200px;
-    height: 100px;
+h1{
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: center;
+    font-family:sans-serif;
+    letter-spacing: -1px;
+    color: grey;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 0px -1px 0px white;
+    font-family: 'Markazi Text', serif;
 }
