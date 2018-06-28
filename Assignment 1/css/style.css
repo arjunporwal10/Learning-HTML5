@@ -1,0 +1,73 @@
+.mainpage{
+  
+  margin: auto;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    float: left;
+    margin-left: 400px;
+    
+}
+.worldcup {
+  width: 500px;
+  height: 300px;
+  border-radius: 300px;
+}
+.herounit{
+  margin-left: 400px;
+  margin-right: 350px;
+}
+.grid_4{
+  width: 300px;
+  padding: 2px;
+}
+.cup{
+  position: absolute;
+  background: yellow;
+  align-self: center;
+  margin-left: 200px;
+  margin-top: 100px;
+
+}
+header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.clearfix + .herounit{
+  padding-top: 102px;
+}
+
+h1 {
+  font-size: 30px;
+}
+nav ul li {
+  
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  min-height: 10px;
+  margin-left: 50px;
+}
+
+  .herounit{
+      background:wheat;
+      margin-top: 100px;
+  }
+  .columnsection{
+      background: grey;
+      margin-top: 420px;
+      height: 400px;
+  }
+  .footer{
+      background: palevioletred;
+      height: 400px;
+  }
+  
