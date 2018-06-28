@@ -1,47 +1,33 @@
-body{
-    width: 600px;
-    margin:20px auto;
-    font-family: sans-serif;
+.container_12{
+    background: red;
 }
-article img{
-    float: left;
+.grid_8{
+    background:white;
+    margin-bottom: 10px;
+}
+nav li{
+    display: inline;
+    background: blueviolet;
+    margin-left: 0;
     margin-right: 30px;
 }
-.preview{
+.primary{
+    background: yellow;
+    margin-top: 30px;
+    
+}
+aside{
+    background: green;
     float: right;
-    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-article h2{
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 1px;
-    margin-top: 2px;
+header{
+    background: grey;
 }
-
-.meta{
-    font-style: italic;
-    font-size: 14px;
-    margin-left: 0px;
-    text-decoration: underline;
-
+.grid_2{
+    margin-bottom: 10px;
 }
-.meta li{
-    display: inline;
-}
-.postinfo{
-    background: gray;
-    color: aqua;
-    padding: 2px;
-    float: left;
-   
-}
-a{
-    text-decoration: none;
-    color: aqua;
-}
-p{
-    line-height: 30px;
-}
-a:hover{
-    color: black;
+header{
+    font-size: 30px;
 }
