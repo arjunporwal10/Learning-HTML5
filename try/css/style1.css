@@ -29,12 +29,12 @@ body {
   }
   #tagline {
     float: left;
-    padding-top: 20px;
-    padding-left: 220px; 
+    padding-top: 30px;
+    padding-left: 420px; 
   }
       
   #tagline h2 {
-    font-size: 30px; color: black;
+    font-size: 40px; color:white;
   }
   ul#menu {
     list-style: none; 
@@ -80,10 +80,15 @@ ul#menu li:hover{
       padding-left: 500px;
       padding-top: 10px;
   }
+ 
   .follow{
       float: left;
       padding-left: 40px;
+      padding-top: 10px;
       
+  }
+  .about{
+      padding-top: 10px;
   }
   .follow ul li a{
     text-decoration: none;
@@ -98,22 +103,37 @@ ul#menu li:hover{
   }
   .copyright{
       float: right;
+      padding-top: 30px;
   }
-  #footer{
-  
+  #footer .container{
+    background: rgb(86, 211, 233);
+    border: 1px solid rgb(86, 211, 233);
+    padding: 100px;
+    padding-top: 0;
   }
-  .booking{
-     
-
-  }
-  .promises{
+  #footer .copyright{
+      float: right;
+    
+}
+#footer .about{
+    padding-right: 0;
+    
+}
+ .promises{
       padding-left: 300px;
+      
       
   }
 .facilities{
     padding: 100px;
     padding-left: 200px;
     
+    
+}
+.booking{
+    background: #d4d6d3;
+  border: 1px solid #BEBDBD;
+  padding: 15px;
 }
 #places .grid_4{
     width: 300px;
@@ -122,4 +142,36 @@ ul#menu li:hover{
     padding-top: 40px;
     padding-left: 150px;
     
+}
+form li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+form ul{
+    padding-left: 0;
+}
+#table .max{
+    padding-top: 10px;
+}
+#table .low{
+    padding-top: 10px;
+}
+#table .full{
+    padding-top: 10px;
+}
+#places p{
+    padding-top: 10px;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+.famous .img{
+    width: 100px;
+    height: 100px;
+    resize: both;
+    padding-bottom: 100px;
 }

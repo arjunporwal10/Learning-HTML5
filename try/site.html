@@ -57,6 +57,9 @@
                         <h3>
                             <a href="#">Bangalore</a>
                         </h3>
+                        <div class="img">
+                            <img src="../try/img/bimg.jpg" alt="Bangalore">
+                        </div>
                         <p>Lorem ipsum doon, dolorum vel fugit debitis. Ut nisi hic architecto, recusandae animi labore inventore
                             aut quia atque. Fugiat assumenda totam eveniet.</p>
 
@@ -66,6 +69,9 @@
                         <h3>
                             <a href="#">Delhi</a>
                         </h3>
+                        <div class="img">
+                            <img src="../try/img/ddimg.jpg" alt="delhi">
+                        </div>
                         <p>Lorem ipsum docimus enim iure commodi aliquid dolorum similique officia, veritatis vero eum temporibus
                             corporis? Laudantium inventore blanditiis magnam maxime.</p>
 
@@ -76,6 +82,9 @@
                         <h3>
                             <a href="#">Kashmir</a>
                         </h3>
+                        <div class="img">
+                            <img src="../try/img/kimg.jpg" alt="kashmir">
+                        </div>
                         <p>Lorem ipsum dom minus earum omnis, modi ducimus quod enim placeat, culpa, consequuntur sunt dolor
                             blanditiis nostrum ipsam adipisci qui. Iusto, quasi libero?</p>
                     </section>
@@ -86,22 +95,47 @@
                 <div class="booking grid_6">
                     <h3>Mobile Booking</h3>
                     <form action="#">
-                        <label for="">Enter Mobile</label>
-                        <input type="text">
-                        <input type="button" value="BOOK">
+                        <ul>
+                            <li>
+                                <label for="">From</label>
+                                <input type="text" id="from" , name="from">
+                            </li>
+                            <li>
+                                <label for="">To</label>
+                                <input type="text" id="to" , name="to">
+                            </li>
+                            <li>
+                                <label for="">Date</label>
+                                <input type="text" id="date" , name="date">
+                            </li>
+                            <li>
+                                <input type="button" value="BOOK">
+                            </li>
+                        </ul>
+
+
                     </form>
                 </div>
                 <div class="promises grid_6">
-                    <h3>Promises</h3>
-                    <table>
+                    <h2>Promises</h2>
+                    <table id="table">
                         <tr>
-                            <td>Maximum Choice</td>
+                            <td class="max">
+                                <h3>Maximum Choice</h3>
+                                <p>More More More......</p>
+                            </td>
                         </tr>
                         <tr>
-                            <td>Lowest Prices</td>
+                            <td class="low">
+                                <h3>Lowest Prices</h3>
+                                <p>Less Less Less.....</p>
+                            </td>
                         </tr>
                         <tr>
-                            <td>Full Refunds</td>
+                            <td class="full">
+                                <h3>Full Refunds</h3>
+                                <p>Full Full Full......</p>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -143,7 +177,7 @@
                     </li>
                 </ul>
             </div>
-            <div style="clear:both"></div>
+            
             <div class="copyright">
                 <p>Copyright © 2009 MySite
                     <br /> All Rights Reserved</p>
