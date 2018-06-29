@@ -29,11 +29,13 @@ header {
 }
 #menu{
     padding-top: 20px;
+    font-family: 'Dosis', sans-serif;
 }
 #tagline {
     float: left;
     padding-top: 30px;
     padding-left: 420px; 
+    font-family: 'Spirax', cursive;
 }
     
 #tagline h2 {
@@ -121,6 +123,9 @@ footer .copyright{
 footer .about{
     padding-right: 0;
 
+}
+footer ul li a:hover{
+    text-decoration: underline;
 }
 .promises{
     padding-left: 300px;   
