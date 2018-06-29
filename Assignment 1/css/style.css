@@ -40,7 +40,7 @@ header {
   width: 100%;
 
 }
-.clearfix + .herounit{
+.clearfix + .herounit + .cup{
   padding-top: 102px;
 }
 

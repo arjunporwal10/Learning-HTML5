@@ -1,33 +1,26 @@
-.container_12{
-    background: red;
-}
-.grid_8{
-    background:white;
-    margin-bottom: 10px;
+nav {
+    display: inline;
+    
+    
 }
 nav li{
     display: inline;
-    background: blueviolet;
-    margin-left: 0;
-    margin-right: 30px;
+    overflow: hidden;
+  
 }
-.primary{
+nav li:hover{
     background: yellow;
-    margin-top: 30px;
+}
+
+ .grid_4{
     
+    margin-left: 10px;
+    margin-right: 300px;    
 }
-aside{
-    background: green;
-    float: right;
-    margin-top: 30px;
-    margin-bottom: 10px;
+.grid_12{
+   
 }
-header{
-    background: grey;
-}
-.grid_2{
-    margin-bottom: 10px;
-}
-header{
-    font-size: 30px;
+.navigation{
+    
+    padding: 20px;   
 }
