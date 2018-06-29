@@ -134,7 +134,7 @@ li#email {
 li#twitter {
   background: url(../img/worldcup.jpg) no-repeat; 
 }
-#footer {
+footer {
   background: url(../img/header.jpg) repeat-x;
   padding-top: 20px;
   padding-bottom:60px;

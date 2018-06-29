@@ -65,25 +65,6 @@ ul#menu li {
     background: whitesmoke;
     height: 40px;
 }
-.bus{
-    padding-left: 300px; 
-    width: 600px;
-    padding-top: 50px;
-}   
-#hero{
-    padding-left: 400px;
-    padding-top: 10px;
-}
-#hero h2{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#places h2{
-    padding-left: 500px;
-    padding-top: 10px;
-}
-
 .follow{
     float: left;
     padding-left: 40px;
@@ -122,63 +103,22 @@ footer .about{
     padding-right: 0;
 
 }
-.promises{
-    padding-left: 300px;   
-}
-.facilities{
-    padding: 100px;
-    padding-left: 200px;
-
-
-}
-    .booking{
-    background:lightcyan;
-    border: 1px solid #BEBDBD;
-    padding: 15px;
-}
-#places .grid_4{
-    width: 300px;
-}
-.famous{
-    padding-top: 40px;
-    padding-left: 150px;
-
-}
-form li{
-    list-style: none;
-    margin-bottom: 20px;
-}
-label{
-    display: block;
-    cursor: pointer;
-}
-form ul{
-    padding-left: 0;
-}
-#table .max{
-    padding-top: 10px;
-}
-#table .low{
-    padding-top: 10px;
-}
-#table .full{
-    padding-top: 10px;
-}
-#places p{
-    padding-top: 10px;
-}
 footer a:hover{
     text-decoration: underline;
 }
-.famous .img{
-    width: 100px;
-    height: 100px;
-    resize: both;
-    padding-bottom: 100px;
+#offers{
+    padding-left: 200px;
+    padding-top: 20px;
+
 }
-.booking h3{
-    padding-bottom: 10px;
+#offers h2{
+    padding-bottom: 20px;
+    padding-left: 400px;
 }
-#places h2{
-    padding-top: 50px;
+#offers h3{
+    padding-left: 100px;
+}
+#offers .img{
+    padding-top: 20px;
+
 }
