@@ -1,7 +1,7 @@
 body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    
 
 
 }   
@@ -29,13 +29,13 @@ header {
 }
 #menu{
     padding-top: 20px;
-    font-family: 'Dosis', sans-serif;
+    
 }
 #tagline {
     float: left;
     padding-top: 30px;
     padding-left: 420px; 
-    font-family: 'Spirax', cursive;
+    
 }
     
 #tagline h2 {
@@ -175,10 +175,9 @@ form ul{
 footer a:hover{
     text-decoration: underline;
 }
-.famous .img{
-    width: 100px;
+.famous .img {
+    width: 200px;
     height: 100px;
-    resize: both;
     padding-bottom: 100px;
 }
 .booking h3{
