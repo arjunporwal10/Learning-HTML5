@@ -131,7 +131,7 @@ footer .about{
 
 
 }
-    .booking{
+.booking{
     background:lightcyan;
     border: 1px solid #BEBDBD;
     padding: 15px;
@@ -181,4 +181,11 @@ footer a:hover{
 }
 #places h2{
     padding-top: 50px;
+}
+#places h3{
+    padding-left: 100px;
+}
+#nextpage{
+    padding-top: 20px;
+    text-align: center;
 }

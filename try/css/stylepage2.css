@@ -111,9 +111,10 @@ footer a:hover{
     padding-top: 20px;
 
 }
+
 #offers h2{
     padding-bottom: 20px;
-    padding-left: 400px;
+    padding-left: 350px;
 }
 #offers h3{
     padding-left: 100px;
@@ -122,3 +123,27 @@ footer a:hover{
     padding-top: 20px;
 
 }
+#offers a:hover{
+    
+    background: yellow;
+}
+#destinations {
+    padding-left: 200px;
+    padding-top: 20px;
+}
+#destinations .dest2{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+#destinations h3{
+    padding-left: 100px;
+}
+#destinations h2{
+    padding-bottom: 20px;
+    padding-left: 300px;
+}
+#nextpage{
+    float: left;
+    padding-left: 100px;
+}
+
