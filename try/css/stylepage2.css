@@ -11,6 +11,7 @@ body {
 }  
 #logo{
     float: left;
+    padding-left: 20px;
 }
 .logoimg{
     width: 100px;
@@ -70,16 +71,21 @@ ul#menu li {
     padding-top: 10px;
     
 }
+.follow ul{
+    padding-top: 10px;
+    
+}
 .about{
     padding-top: 10px;
 }
-.follow ul li a{
+.follow ul li {
     text-decoration: none;
+    display: inline;
+    padding-left: 10px;
 }
 .about {
         float: left;
-        padding-left: 40px;
-        
+        padding-left: 40px;    
 }
 .about ul li a{
     text-decoration: none;
@@ -88,6 +94,7 @@ ul#menu li {
     float: right;
     padding-top: 30px;
 }
+
 footer .container{
     background: rgb(86, 211, 233);
     border: 1px solid rgb(86, 211, 233);
@@ -102,9 +109,11 @@ footer .about{
     padding-right: 0;
 
 }
-footer a:hover{
+
+footer ul li a:hover{
     text-decoration: underline;
 }
+
 #offers{
     padding-left: 200px;
     padding-top: 20px;
