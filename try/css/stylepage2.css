@@ -9,16 +9,13 @@ body {
     margin: 0 auto; 
     
 }  
-
-#logo {
-    background: url(../img/logo.png) no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 50px;
+#logo{
     float: left;
 }
-#logo h1 {
-    text-indent: -9999px;
+.logoimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
 }
 header {
      padding-top: 0px;
@@ -34,9 +31,8 @@ header {
 #tagline {
     float: left;
     padding-top: 30px;
-    padding-left: 420px; 
+    padding-left: 500px; 
     
-
 }
     
 #tagline h2 {
