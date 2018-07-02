@@ -4,28 +4,33 @@
 <head>
   <title>Travel</title>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="../css files/960_12_col.css">
-  <link rel="stylesheet" href="css/style1.css">
+
   <link href="https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Lobster|Pacifico|Shrikhand|Spirax" rel="stylesheet">
+  <meta name="description" content="">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style1.css">
 
 </head>
 
 <body>
-  <div id="main">
-    <div class="container">
-      <header class="sticky">
-        <div id="logo">
-          <a href="../try/site.html">
-            <img class="logoimg" src="../try/img/logo.png" alt="LOGO">
-          </a>
-        </div>
-        <div id="tagline">
-          <h2>
-            Modern Travels
-          </h2>
-        </div>
-        <div style="clear:both"></div>
+  <main class="container">
+    <header class="sticky">
+      <div id="logo">
+        <a href="../try/site.html">
+          <img class="logoimg" src="../try/img/logo.png" alt="LOGO">
+        </a>
+      </div>
+      <div id="tagline">
+        <h2>
+          Modern Travels
+        </h2>
+      </div>
+      <!--end tagline-->
+      <div style="clear:both"></div>
+      <nav>
         <ul id="menu">
           <li>
             <a href="#">Bus Tickets</a>
@@ -40,26 +45,27 @@
             <a href="#">Cars</a>
           </li>
         </ul>
-        <div style="clear:both"></div>
-      </header>
-      <!--end header -->
-
-      <div id="content">
-        <div class="image">
-          <img class="bus" src="../try/img/bigbus.png" alt="bus">
-        </div>
-        <div id="hero">
-          <p>
-            <h2>Travel in a royal way.Like never before :)</h2>
-          </p>
-        </div>
+      </nav>
+      <!--end menu-->
+      <div style="clear:both"></div>
+    </header>
+    <!--end header -->
+    <div id="content">
+      <div class="image">
+        <img class="bus" src="../try/img/bigbus.png" alt="bus">
       </div>
-      <!--end content-->
-      <div id="places">
-        <h2>Famous Destinations</h2>
-        <div class="famous grid_12">
-          <div class="grid_4 alpha">
-
+      <div id="hero">
+        <p>
+          <h2>Travel in a royal way.Like never before :)</h2>
+        </p>
+      </div>
+    </div>
+    <!--end content-->
+    <div id="places">
+      <h2>Famous Destinations</h2>
+      <div class="famous grid_12">
+        <section class="grid_4 alpha">
+          <article>
             <h3>
               <a href="#">Bangalore</a>
             </h3>
@@ -68,10 +74,10 @@
             </div>
             <p>Lorem ipsum doon, dolorum vel fugit debitis. Ut nisi hic architecto, recusandae animi labore inventore aut quia
               atque. Fugiat assumenda totam eveniet.</p>
-
-          </div>
-          <div class="grid_4">
-
+          </article>
+        </section>
+        <section class="grid_4">
+          <article>
             <h3>
               <a href="#">Delhi</a>
             </h3>
@@ -80,11 +86,10 @@
             </div>
             <p>Lorem ipsum docimus enim iure commodi aliquid dolorum similique officia, veritatis vero eum temporibus corporis?
               Laudantium inventore blanditiis magnam maxime.</p>
-
-
-          </div>
-          <div class="grid_4 omega">
-
+          </article>
+        </section>
+        <section class="grid_4 omega">
+          <article>
             <h3>
               <a href="#">Kashmir</a>
             </h3>
@@ -93,72 +98,70 @@
             </div>
             <p>Lorem ipsum dom minus earum omnis, modi ducimus quod enim placeat, culpa, consequuntur sunt dolor blanditiis
               nostrum ipsam adipisci qui. Iusto, quasi libero?</p>
-          </div>
-        </div>
+          </article>
+        </section>
       </div>
-      <!--end places-->
-      <div style="clear:both"></div>
-      <div id="nextpage">
-        <a href="../try/page2.html">
-          <h2>More deals and places to go..</h2>
-        </a>
-      </div>
-      <div class="facilities grid_12 clearfix">
-        <div class="booking grid_6">
-          <h3>Mobile Booking</h3>
-          <form action="#">
-            <ul>
-              <li>
-                <label for="">From</label>
-                <input type="text" id="from" , name="from">
-              </li>
-              <li>
-                <label for="">To</label>
-                <input type="text" id="to" , name="to">
-              </li>
-              <li>
-                <label for="">Date</label>
-                <input type="text" id="date" , name="date">
-              </li>
-              <li>
-                <input type="button" value="Book Now">
-              </li>
-            </ul>
-
-
-          </form>
-        </div>
-        <!--end form-->
-        <div class="promises grid_6">
-          <h2>Promises</h2>
-          <table id="table">
-            <tr>
-              <td class="max">
-                <h3>Maximum Choice</h3>
-                <p>More More More......</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="low">
-                <h3>Lowest Prices</h3>
-                <p>Less Less Less.....</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="full">
-                <h3>Full Refunds</h3>
-                <p>Full Full Full......</p>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <!--end promises-->
-      </div>
-      <div style="clear:both"></div>
-      <!--end of facilities-->
     </div>
-    <!--maincontainer-->
-  </div>
+    <!--end places-->
+    <div style="clear:both"></div>
+    <div id="nextpage">
+      <a href="../try/page2.html">
+        <h2>More deals and places to go..</h2>
+      </a>
+    </div>
+    <!--end next page link-->
+    <div class="facilities grid_12 clearfix">
+      <div class="booking grid_6">
+        <h3>Mobile Booking</h3>
+        <form action="#">
+          <ul>
+            <li>
+              <label for="">From</label>
+              <input type="text" id="from" , name="from">
+            </li>
+            <li>
+              <label for="">To</label>
+              <input type="text" id="to" , name="to">
+            </li>
+            <li>
+              <label for="">Date</label>
+              <input type="text" id="date" , name="date">
+            </li>
+            <li>
+              <input type="button" value="Book Now">
+            </li>
+          </ul>
+        </form>
+      </div>
+      <!--end form-->
+      <div class="promises grid_6">
+        <h2>Promises</h2>
+        <table id="table">
+          <tr>
+            <td class="max">
+              <h3>Maximum Choice</h3>
+              <p>More More More......</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="low">
+              <h3>Lowest Prices</h3>
+              <p>Less Less Less.....</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="full">
+              <h3>Full Refunds</h3>
+              <p>Full Full Full......</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!--end promises-->
+    </div>
+    <div style="clear:both"></div>
+    <!--end of facilities-->
+  </main>
   <!--end main-->
 
   <footer>
@@ -167,13 +170,19 @@
         <h3>Follow Us On</h3>
         <ul>
           <li>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#">
+              <i class="fab fa-facebook-square"></i>
+            </a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#">
+              <i class="fab fa-twitter-square"></i>
+            </a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
           </li>
         </ul>
       </div>
