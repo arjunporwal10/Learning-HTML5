@@ -28,7 +28,9 @@ Notes:	 Hand coded for Udemy.com
 #featureheading p{
     text-align: center;
 }
-
+#inputMessage{
+    margin-bottom: 15px;
+}
 
 
 /* --------------------------------------

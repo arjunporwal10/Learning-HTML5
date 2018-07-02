@@ -6,6 +6,9 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
     margin: 0 auto; 
     
 }
+a{
+    text-decoration: none;
+}
 /* Header */  
 header {
      padding-top: 0px;
@@ -130,9 +133,9 @@ footer a:hover{
         float: left;
         padding-left: 40px;    
 }
-.about ul li a{
-    text-decoration: none;
-}
+ul {
+    list-style-type: none;
+  }
 .copyright{
     float: right;
     padding-top: 30px;
@@ -192,10 +195,10 @@ form ul{
 #places p{
     padding-top: 10px;
 }
-.famous .img {
-    width: 200px;
-    height: 100px;
-    padding-bottom: 100px;
+.images {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
 }
 /* Next page*/
 
@@ -221,7 +224,7 @@ form ul{
     padding-top: 20px;
 
 }
-#offers a:hover{
+#offers h3 a:hover{
     
     background: yellow;
 }
@@ -242,5 +245,8 @@ form ul{
     padding-bottom: 20px;
     padding-left: 300px;
 }
-
+.imgd{
+    width: 250px;
+    height: 200px;
+}
 
