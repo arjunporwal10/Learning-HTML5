@@ -26,8 +26,8 @@
 </head>
 
 <body>
-  <div class="container" id="main">
-    <div class="navbar navbar-fixed-top navbar-light">
+  <main class="container">
+    <nav class="navbar navbar-fixed-top navbar-light">
       <div class="container">
         <button class="navbar-toggle" data-toggle="collapse" type="button" data-target=".navbar-responsive-collapse">
           <span class="icon-bar"></span>
@@ -37,7 +37,7 @@
         <a href="/" class="navbar-brand">
           <img src="../MyWebsite/images/logo.png" alt="logo">
         </a>
-        <div class="nav-collapse collapse navbar-responsive-collapse">
+        <section class="nav-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav ">
             <li class="active">
               <a href="#"> Bus Tickets</a>
@@ -147,13 +147,13 @@
               </li>
           </ul>
 
-        </div>
+        </section>
         <!--end nav bar collapse-->
 
       </div>
       <!--end conatiner navbar-->
 
-    </div>
+    </nav>
     <!--end navbar-->
     <div class="carousel slide" id="myCarousel">
 
@@ -168,44 +168,44 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active" id="slide1">
-          <div class="carousel-caption">
+          <article class="carousel-caption">
             <h4>Great Destinations</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo minus exercitationem officiis tenetur
               ratione est amet. Fugit repellat laboriosam incidunt tempore facere facilis at. Illo incidunt aut eius? Explicabo.</p>
-          </div>
+          </article>
           <!-- end carousel-caption-->
         </div>
         <!-- end item -->
 
         <div class="item" id="slide2">
-          <div class="carousel-caption">
+          <article class="carousel-caption">
             <h4>Solo Trips</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nulla iusto sed fuga aliquid. Dignissimos aperiam
               inventore quod accusantium voluptas voluptate in sit doloremque excepturi natus, modi suscipit laudantium.
               Totam!
             </p>
-          </div>
+          </article>
           <!-- end carousel-caption-->
         </div>
         <!-- end item -->
 
         <div class="item" id="slide3">
-          <div class="carousel-caption">
+          <article class="carousel-caption">
             <h4>Exclusive Deals</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo adipisci porro amet! Rem modi consequatur
               inventore laudantium, ipsum quis vero nulla, quam quos recusandae natus necessitatibus, exercitationem veniam
               eum architecto!</p>
-          </div>
+          </article>
           <!-- end carousel-caption-->
         </div>
         <!-- end item -->
         <div class="item" id="slide4">
-          <div class="carousel-caption">
+          <article class="carousel-caption">
             <h4>Destination Weddings</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo adipisci porro amet! Rem modi consequatur
               inventore laudantium, ipsum quis vero nulla, quam quos recusandae natus necessitatibus, exercitationem veniam
               eum architecto!</p>
-          </div>
+          </article>
           <!-- end carousel-caption-->
         </div>
         <!-- end item -->
@@ -224,80 +224,91 @@
     <!-- end myCarousel -->
     <div class="row" id="bigcallout">
       <div class="col-12">
+        <div class="well well-small visible-sm">
+          <a href="#" class="btn btn-large btn-block btn-default">
+            <span class="glyphicon glyphicon-phone">Give Us A Call!</span>
+          </a>
+        </div>
+        <!--end well small-->
         <div class="well">
-          <div class="page-header">
+          <section class="page-header">
             <h1>Stop Looking. Start Booking.
               <small>Track your ride in our MobileApp</small>
             </h1>
-          </div>
-          <form class="form-inline" action="">
-            <div class="col-3">
-              <div class="form-group">
-                <label for="">
-                  <span class="glyphicon glyphicon-arrow-up">From</span>
-                </label>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non accusantium assumenda ipsam fuga cum ipsa, eveniet
+              nemo quas obcaecati molestiae cupiditate velit consequuntur dolorum ullam nihil, esse tenetur inventore placeat.</p>
+            </article>
+            <hr>
+            <form class="form-inline" action="">
+              <div class="col-3">
+                <div class="form-group">
+                  <label for="">
+                    <span class="glyphicon glyphicon-arrow-up">From</span>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="form-group">
-                <label for="">
-                  <span class="glyphicon glyphicon-arrow-down">To</span>
-                </label>
+              <div class="col-3">
+                <div class="form-group">
+                  <label for="">
+                    <span class="glyphicon glyphicon-arrow-down">To</span>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="form-group">
-                <label for="">
-                  <span class="glyphicon glyphicon-calendar">Date</span>
-                </label>
+              <div class="col-3">
+                <div class="form-group">
+                  <label for="">
+                    <span class="glyphicon glyphicon-calendar">Date</span>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div class="col-3">
-            </div>
-          </form>
-          <div style="clear:both"></div>
-          <form class="form-inline" action="">
-            <div class="col-3">
-              <div class="form-group">
-                <input type="text" class="form-control" id="src" placeholder="ComingFrom" name="from">
+              <div class="col-3">
               </div>
-            </div>
-            <div class="col-3">
-              <div class="form-group">
-                <input type="text" class="form-control" id="dest" placeholder="WhereTo" name="to">
+            </form>
+            <div style="clear:both"></div>
+            <form class="form-inline" action="">
+              <div class="col-3">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="src" placeholder="ComingFrom" name="from">
+                </div>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="form-group">
-                <input type="date" class="form-control" id="onward" placeholder="OnwardDate" name="date">
+              <div class="col-3">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="dest" placeholder="WhereTo" name="to">
+                </div>
               </div>
-            </div>
-            <div class="col-3">
+              <div class="col-3">
+                <div class="form-group">
+                  <input type="date" class="form-control" id="onward" placeholder="OnwardDate" name="date">
+                </div>
+              </div>
+              <div class="col-3">
 
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                <button type="button" class=".btn-outline-* btn-outline-success">Search Buses
-                  <strong class="caret"></strong>
-                </button>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#">
-                    Search Trains
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Search Flights
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Search Cabs
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </form>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  <button type="button" class=".btn-outline-* btn-outline-success">Search Buses
+                    <strong class="caret"></strong>
+                  </button>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">
+                      Search Trains
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Search Flights
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Search Cabs
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </form>
+            <div style="clear:both"></div>
+
         </div>
         <!--end well-->
       </div>
@@ -306,15 +317,143 @@
     </div>
     <!--end callout-->
     <div class="row" id="featureheading">
-
+      <div class="col-12">
+        <h2>Famous Destinations</h2>
+        <p class="lead">Visit these lovely cities and more...</p>
+      </div>
     </div>
     <!--end featureheading-->
     <div class="row" id="features">
-
+      <div class="col-sm-4 feature">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">New Delhi</h3>
+            <img src="../MyWebsite/img/ddimg.jpg" alt="" class="img-circle">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium repellat explicabo assumenda, reiciendis
+              est nobis, at cupiditate incidunt nihil commodi itaque? Quisquam minima fugit eveniet aliquam unde rem sint
+              eaque.
+            </p>
+            <a href="" target "" class="btn btn-warning btn-block">Visit New Delhi</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 feature">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Bangalore</h3>
+            <img src="../MyWebsite/img/bimg.jpg" alt="" class="img-circle">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium repellat explicabo assumenda, reiciendis
+              est nobis, at cupiditate incidunt nihil commodi itaque? Quisquam minima fugit eveniet aliquam unde rem sint
+              eaque.
+            </p>
+            <a href="" target "" class="btn btn-warning btn-block">Visit Bangalore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 feature">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Kashmir</h3>
+            <img src="../MyWebsite/img/kimg.jpg" alt="" class="img-circle">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium repellat explicabo assumenda, reiciendis
+              est nobis, at cupiditate incidunt nihil commodi itaque? Quisquam minima fugit eveniet aliquam unde rem sint
+              eaque.
+            </p>
+            <a href="" target "" class="btn btn-warning btn-block">Visit Kashmir</a>
+          </div>
+        </div>
+      </div>
     </div>
     <!--end features-->
     <div class="row" id="moreinfo">
+      <div class="col-sm-6">
+        <h3>neat tab</h3>
+        <div class="tabbale">
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a href="#tab1" data-toggle="tab">Section1</a>
+            </li>
+            <li>
+              <a href="#tab2" data-toggle="tab">Section2</a>
+            </li>
+          </ul>
+          <section class="tab-content">
+            <div class="tab-pane active" id="tab1">
+              <h4>
+                <span class="glyphicon glyphicon-map-marker"></span> Our loaction
+                <small>More like soem</small>
+              </h4>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.6016047449225!2d77.21957581435633!3d28.641700090418393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3c113a7b05%3A0xf8913afee1665916!2sNew+Delhi!5e0!3m2!1sen!2sin!4v1530524418439"
+                width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit atque nam quibusdam repudiandae perspiciatis.
+                Iure dolorem exercitationem obcaecati voluptates deleniti nesciunt non recusandae quaerat magnam? Vitae voluptatum
+                soluta dolorum natus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed modi esse neque eligendi similique dolorem
+                error perferendis hic aperiam deleniti voluptatem ducimus iusto eaque sit nostrum quisquam, odit ipsum?</p>
+            </div>
+            <div class="tab-pane " id="tab2">
+              <h4>left floated
+                <small>using placeholder</small>
+              </h4>
+              <img src="http://placehold.it/140" class="thumbnail" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ut eum, officia quae porro, totam odit optio
+                praesentium fuga sit pariatur beatae facere tenetur nesciunt quidem, qui doloremque temporibus deleniti.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum hic nam porro sed, similique aut voluptas
+                nisi nihil fugit tenetur doloremque maiores. Odit commodi, aliquam reprehenderit harum cupiditate ratione.
+              </p>
+              <hr>
+              <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal">
+                <span class="glyphicon glyphicon-hand-up"></span>click</a>
+            </div>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">title</h4>
+                    </div>
+                    <div class="modal-body">
+                      <h4>text in a modal</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis neque, consequatur repellat quod doloribus reiciendis non illum ea deserunt, corrupti incidunt vel at fuga. Explicabo repellendus obcaecati ad ut!</p>
+                      <h4>popover in m odal</h4>
+                      <a href="" class="btn btn-danger pop">Dont click</a>
+                      <h4>tooltip in a modal</h4>
+                      <a href="">this link</a>cwjhbwejhb <a href="">wckjbwjek</a>
+                      <hr>
+                      <p><small class="text-muted">PS this does do anything</small></p>
+                      <form action="" class="horizontal-form">
+                        <div class="form-group">
+                          <label for="inputName" class="col-lg-2 control-label">Name</label>
+                          <div class="col-lg-10">
+                            <input type="text" id="inputName" placeholder="Name" class="form-control">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                              <input type="text" id="inputName" placeholder="Email" class="form-control">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                              <label for="Message" class="col-lg-2 control-label">Name</label>
+                              <div class="col-lg-10">
+                                <input type="text" id="inputName" placeholder="Name" class="form-control">
+                              </div>
+                            </div>
+                      </form>
+                     
+                    </div><!--end modal body-->
+                    <div class="modal-footer">
+                        <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                        <button class="btn btn-primary" type="button">SaveChanges</button>
+                      </div>
+                  </div><!--end modal content-->
+                </div><!--end modal dialog-->
+            </div><!--end mymodal-->
 
+          </section>
+        </div>
+      </div>
     </div>
     <!--end moreinfo-->
     <div class="row" id="morecourses">
@@ -322,7 +461,7 @@
     </div>
     <!--end more courses-->
 
-  </div>
+  </main>
   <!--end conatiner-->
   <footer>
 
