@@ -103,6 +103,17 @@ footer ul li{
 #slide4 {
 	background: url('../../images/hero4_large.jpg') top center no-repeat;
 }
+#explore-section .imgbus{
+    border-radius: 200px;
+    margin-left: 50px;;
+    margin-right: auto;
+}
+#promises{
+    margin-bottom: 30px;
+}
+#explore-section{
+    margin-bottom: 30px;
+}
 
 /* --------------------------------------
    Global Styles
@@ -176,6 +187,16 @@ footer{
     border: 1px solid grey;
     margin-top: 40px;
     padding: 20px;
+}
+#morecourses .thumbimg{
+    height: 400px;
+    width: 600px;
+}
+.thumbnail h2{
+    color: #191919;
+}
+.row{
+    margin: 0;
 }
 /* --------------------------------------
    Media Queries
