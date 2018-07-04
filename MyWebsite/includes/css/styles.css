@@ -44,7 +44,7 @@ footer ul li{
     text-align: end;
 }
 #bigcallout .well{
-    background-color: aliceblue;
+    background-color:peachpuff;
 }
 
 
@@ -96,20 +96,19 @@ footer ul li{
        font-size: 32px;
    }
 #myCarousel .item { height: 400px; }
-
 #slide1 {
-	background: url('../../images/hero5_large.jpg') top center no-repeat;
+	background: url('../../images/hero1_large.jpg') top center no-repeat;
 }
 
 #slide2 {
-	background: url('../../images/the-best-tour-companies-for-solo-travel.jpg') top center no-repeat;
+	background: url('../../images/hero2_large.jpg') top center no-repeat;
 }
 
 #slide3 {
-	background: url('../../images/hero6_large.jpg') top center no-repeat;
+	background: url('../../images/hero3_large.jpg') top center no-repeat;
 }
 #slide4 {
-	background: url('../../images/wed.jpg') top center no-repeat;
+	background: url('../../images/hero4_large.jpg') top center no-repeat;
 }
 
 #explore-section .imgbus{
@@ -199,15 +198,24 @@ footer{
     margin-top: 40px;
     padding: 20px;
 }
-#morecourses .thumbimg{
+#trip .thumbimg{
     height: 400px;
     width: 600px;
 }
 .thumbnail h2{
     color: #191919;
 }
-.row{
-    margin: 0;
+
+q {
+    display: inline;
+}
+ 
+q:before {
+    content: open-quote;
+}
+ 
+q:after {
+    content: close-quote;
 }
 
 /* --------------------------------------
@@ -225,6 +233,7 @@ footer{
 	.navbar-brand{
         padding-bottom: 80px;
     }
+    
 }
 
 /* Landscape phone to portrait tablet */
@@ -232,18 +241,18 @@ footer{
     #myCarousel .item { height: 310px; }
 
     #slide1 {
-        background: url('../../images/hero5_large.jpg') top center no-repeat;
+        background: url('../../images/hero1_med.jpg') top center no-repeat;
     }
     
     #slide2 {
-        background: url('../../images/the-best-tour-companies-for-solo-travel.jpg') top center no-repeat;
+        background: url('../../images/hero2_med.jpg') top center no-repeat;
     }
     
     #slide3 {
-        background: url('../../images/hero6_large.jpg') top center no-repeat;
+        background: url('../../images/hero3_med.jpg') top center no-repeat;
     }
     #slide4 {
-        background: url('../../images/wed.jpg') top center no-repeat;
+        background: url('../../images/hero4_med.jpg') top center no-repeat;
     }
     
 }
@@ -253,22 +262,19 @@ footer{
     #myCarousel .item { height: 500px; }
 
 #slide1 {
-	background: url('../../images/hero5_large.jpg') top center no-repeat;
+	background: url('../../images/hero1_large.jpg') top center no-repeat;
 }
 
 #slide2 {
-	background: url('../../images/the-best-tour-companies-for-solo-travel.jpg') top center no-repeat;
+	background: url('../../images/hero2_large.jpg') top center no-repeat;
 }
 
 #slide3 {
-	background: url('../../images/hero6_large.jpg') top center no-repeat;
+	background: url('../../images/hero3_large.jpg') top center no-repeat;
 }
 #slide4 {
-	background: url('../../images/wed.jpg') top center no-repeat;
+	background: url('../../images/hero4_large.jpg') top center no-repeat;
 }
 
 	
-}
-.container{
-    width: 2000px;
 }
