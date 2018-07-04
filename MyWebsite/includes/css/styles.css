@@ -145,7 +145,38 @@ footer a{
 footer{
     background: #191919;
 }
-
+#moreinfo{
+    margin-top: -25px;
+}
+#moreinfo .tab-content{
+    margin-top: 15px;
+}
+#desti{
+    background: url(../../images/bgimg1.jpg) no-repeat;
+    background-size: cover;
+}
+#featureheading h2,h3{
+    color: #eee;
+}
+#moreinfo h3{
+    color: #191919;
+}
+.panel{
+    margin: 0;
+    margin-bottom: 0;
+}
+.flags .flagimg{
+    padding: 30px;
+}
+#promises .promise{
+    width: 200px;
+    height: 200px;
+}
+#promises .card{
+    border: 1px solid grey;
+    margin-top: 40px;
+    padding: 20px;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
