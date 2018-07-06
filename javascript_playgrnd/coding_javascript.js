@@ -1,7 +1,10 @@
 window.onload=function(){
-    document.getElementById('myButton').addEventListener('click',respond);
+    document.getElementById('content').addEventListener('click',respond);
+
 }
 
-function respond(e){
-    alert("thanks for clicking");
+function respond(e)
+{
+   
+   console.log("you clicked");
 }
