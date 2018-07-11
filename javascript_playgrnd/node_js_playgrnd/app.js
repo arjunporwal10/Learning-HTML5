@@ -1,28 +1,11 @@
-var events = require('events');
-var util = require('util');
-// var myEmitter = new events.EventEmitter();
+var fs = require('fs');
 
-// myEmitter.on('someEvent', function(msg){
-//     console.log(msg);
-// });
-
-// myEmitter.emit('someEvent','the event was emitted');
-var Person = function(name){
-    this.name = name;
-};
-
-util.inherits(Person,events.EventEmitter);
-
-var James = new Person('James');
-var Jaden = new Person('Jaden');
-var John = new Person('John');
-var people = [James,Jaden,John];
-
-people.forEach(function(Person){
-    Person.on('speak',function(msg){
-        console.log(Person.name + ' said: ' + msg);
-    });
+// var readMe = fs.readFileSync('readme.txt', 'utf8');
+// fs.writeFileSync('writeMe.txt',readMe);
+fs.readFile('readme.txt', 'utf8', function (err, data) {
+   fs.writeFile('writeMe.txt',data,function(err){
+       if(err)throw err;
+   });
 });
 
-James.emit('speak','hey dude');
-John.emit('speak','yo');
+//console.log('test');// this line of code is not blocked by readfile
